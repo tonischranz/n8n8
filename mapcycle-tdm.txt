@@ -1,0 +1,67 @@
+ut4_venezia_b1
+{
+    g_gametype 4
+    bot_enable 0
+}
+ut4_uptown
+{
+    g_gametype 6
+    bot_enable 1
+    bot_minplayers 2
+}
+ut4_casa
+{
+    g_gametype 6
+    bot_enable 1
+    bot_minplayers 2
+}
+ut4_beijing_b3
+{
+    g_gametype 6
+    bot_enable 0
+}
+ut4_swim
+{
+    g_gametype 8
+    bot_enable 1
+    bot_minplayers 2
+}
+ut4_ricochet
+{
+    g_gametype 8
+    bot_enable 1
+    bot_minplayers 2
+}
+ut4_tohunga_b8
+{
+    g_gametype 8
+    bot_enable 0
+}
+ut4_sanc
+{
+    g_gametype 11
+    bot_enable 1
+    bot_minplayers 4
+}
+ut4_abbay
+{
+    g_gametype 7
+    bot_enable 1
+    bot_minplayers 2
+}
+ut4_blitzkrieg1
+{
+    g_gametype 7
+    bot_enable 0 
+}
+ut4_firingrange
+{
+    g_gametype 1
+    got_enable 0
+}
+ut4_paris
+{
+    g_gametype 4
+    bot_enable 1
+    bot_minplayers 2
+}

@@ -1,0 +1,8 @@
+ut4_village
+ut4_kingdom
+ut4_uptown
+ut4_austria
+ut4_eagle
+ut4_algiers
+ut4_kingpin
+ut4_paris
