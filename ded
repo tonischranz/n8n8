@@ -8,12 +8,12 @@ mycc=$5
 
 [ -n "$myconf" ] || myconf=ctf
 [ -n "$myport" ] || myport=27962
-[ -n "$mycolor"] || mycolor=5
+[ -n "$mycolor" ] || mycolor=5
 [ -n "$myclan" ] || myclan=n8n8
 [ -n "$mycc" ] || mycc=8
 
 while true
 do
-Quake3-UrT-Ded.amd64 +set dedicated 2 +set net_port $myport +set com_hunkmegs 128 +set sv_hostname "|^$mycc$myclan^7|=_=^$mycolor$myconf^7=_=_/" +exec default.cfg +exec server-$myconf.cfg
+Quake3-UrT-Ded.amd64 +set dedicated 2 +set net_port $myport +set com_hunkmegs 128 +exec default.cfg +set sv_hostname "|^$mycc$myclan^7|=_=^$mycolor$myconf^7=_=_/" +exec server-$myconf.cfg
 echo "$myconf ($myport) server crashed on `date`" >> ~/.ioUrbanTerrorServer/q3ut4/crashes.log
 done
