@@ -1,0 +1,36 @@
+ut4_uptown
+{
+    g_gametype 6
+}
+ut4_casa
+{
+    g_gametype 6
+}
+ut4_swim
+{
+    g_gametype 8
+}
+ut4_ricochet
+{
+    g_gametype 8
+}
+ut4_sanc
+{
+    g_gametype 11
+    bot_minplayers 4
+}
+ut4_abbey
+{
+    g_gametype 7
+    bot_minplayers 2
+}
+ut4_firingrange
+{
+    g_gametype 1
+    bot_minplayers 1
+}
+ut4_paris
+{
+    g_gametype 4
+    bot_minplayers 2
+}

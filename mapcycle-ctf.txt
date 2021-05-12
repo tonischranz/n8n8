@@ -3,7 +3,9 @@ ut4_parkinglot_b5
 ut4_algiers
 ut4_kingpin
 ut4_pipeline_b3
+ut4_facade_b5_fix
 ut4_orbital_sl
+ut4_clinic_b3
 ut4_austria
 ut4_uptown
 ut4_kingdom

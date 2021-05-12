@@ -1,0 +1,10 @@
+#!/usr/local/bin/bash
+mydisp=$1
+[ -n "$1" ] || mydisp=:0
+
+urxvt -display $mydisp -tr -sh 50 -fg 3 --title CH -e bash -c ". ~/.ioUrbanTerrorServer/q3ut4/ded ch 27970" &
+urxvt -display $mydisp -tr -sh 50 -fg 2 --title CTF -e bash -c ". ~/.ioUrbanTerrorServer/q3ut4/ded ctf 27972" &
+urxvt -display $mydisp -tr -sh 50 -fg 10 --title FTL -e bash -c ". ~/.ioUrbanTerrorServer/q3ut4/ded ftl 27974" &
+urxvt -display $mydisp -tr -sh 50 -fg 1 --title BOMB -e bash -c ". ~/.ioUrbanTerrorServer/q3ut4/ded bomb 27976" &
+urxvt -display $mydisp -tr -sh 50 -fg 4 --title TS -e bash -c ". ~/.ioUrbanTerrorServer/q3ut4/ded ts 27978" &
+urxvt -display $mydisp -tr -sh 50 --title n8n8 -e bash -c ". ~/.ioUrbanTerrorServer/q3ut4/ded tdm 27980" &

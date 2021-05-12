@@ -1,7 +1,0 @@
-#!/usr/local/bin/bash
-
-while true
-do
-ioq3ded +set_basegame q3ut4 +set fs_homepath ~/UrbanTerror43 +set fs_game q3ut4 +set dedicated 2 +set net_port 27970 +set com_hunkmegs 128 +exec server-ftl.cfg
-echo "ftl server crashed on `date`" >> ~/UrbanTerror43/q3ut4/crashes.log
-done
